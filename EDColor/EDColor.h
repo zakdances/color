@@ -6,8 +6,13 @@
 //  Copyright (c) 2012 Andrew Sliwinski. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
 #import "UIColor+Hex.h"
 #import "UIColor+HSB.h"
 #import "UIColor+HSL.h"
 #import "UIColor+Crayola.h"
 #import "UIColor+CIELAB.h"
+#else
+
+#endif
+
